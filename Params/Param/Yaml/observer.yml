@@ -1,0 +1,66 @@
+---
+OB:
+  desc: "OB系统"
+  parameters:
+  #   登陆OB，获取订单所对应的取件单，指定取货人员
+  - id: 1
+    desc: 'OB登陆界面'
+    url: 'http://%s/casservice/login?service=http://%s/home/caslogin?redirect=/'
+    data:
+    header:
+    res:
+
+  - id: 2
+    desc: 'OB登陆请求'
+    url: 'http://%s/casservice/login?service=http://%s/home/caslogin?redirect=/'
+    data: {'username':'%s','password':'%s','lt':'%s','execution':'%s','_eventId':'submit'}
+    header:
+    res:
+
+  - id: 3
+    desc: '根据订单获取取件单号'
+    url: '/DispatchBill/GetByOrderNo'
+    data: 'OrderNo=%s&_formatted=true'
+    header: {
+      'X-Requested-With': 'XMLHttpRequest',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+      'Referer': 'http://test.crm.aihuishou.com/dist/index.html',
+      'Accept-Encoding': 'gzip, deflate',
+      'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'
+    }
+    res:
+
+  - id: 4
+    desc: '设置取件人'
+    url: '/dispatchBill/update'
+    data: {'BillNo':'%s','CityId':'1','AddressType':'1','DetailAddress':'上海上海上海市杨浦区五角场街道淞沪路433号创智天地4期1单元601','PickupDt':'%s','PickupStaffId':'%s','Remark':''}
+    header:
+    res:
+
+  - id: 5
+    desc: '根据订单号获取订单基本信息'
+    url: '/order/getByOrderNo'
+    data: 'orderNo=%s&IncludeOrderTrace=true&IncludeOrderOptions=false&IncludeOrderLogistics=false&IncludeOrderDetail=false&IncludeTurnover=false&IncludeSaleReviewOrderInspection=false&_formatted=true'
+    header:
+    res:
+
+  - id: 6
+    desc: '派单'
+    url: '/DispatchBill/OrderDispatch?IncludeOrderTrace=true&IncludeOrderOptions=true&IncludeOrderLogistics=true&_formatted=true'
+    data: {'orderNo':'%s', 'CityId':1, 'AddressType': 1, 'DetailAddress': '上海市杨浦区五角场街道淞沪路433号创智天地4期1单元601', 'PickupDt': '%', 'Remark':''}
+    header:
+    res:
+
+  - id: 7
+    desc: '编辑物流信息'
+    url: '/order/editLogistics?IncludeOrderTrace=true&IncludeOrderOptions=true&IncludeOrderLogistics=true&_formatted=true'
+    data: {'orderNo': "%s", 'logisticsCompanyId': 1,'expressNo': "%s"}
+    header:
+    res:
+
+  - id: 8
+    desc: '根据关键字获取用户信息'
+    url: '/common/getObserverByKey?key=%s&_formatted=true'
+    data:
+    header:
+    res:

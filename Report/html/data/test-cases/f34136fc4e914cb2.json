@@ -1,0 +1,81 @@
+{
+  "uid" : "f34136fc4e914cb2",
+  "name" : "test_pass",
+  "fullName" : "TestCase.test_singleApi.TestLoginWithPwd#test_pass",
+  "historyId" : "d2b3e1ed8ab1b82cde874253b139922b",
+  "time" : {
+    "start" : 1643658266885,
+    "stop" : 1643658267057,
+    "duration" : 172
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_singleApi.TestLoginWithPwd object at 0x000001A2AF13BB80>\n\n    def test_pass(self):\n        case_num = \"1\"\n>       self.pwdBase(self.host,case_num)\n\nTestCase\\test_singleApi.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nTestCase\\test_singleApi.py:32: in pwdBase\n    return self.ast.assert_code(result[\"code\"], expected)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001A2AF11BA00>, code = 1\nexpected_code = 11.0\n\n    def assert_code(self, code, expected_code):\n        \"\"\"\n        验证response状态码\n        :param code:\n        :param expected_code:\n        :return:\n        \"\"\"\n        try:\n>           assert code == expected_code\nE           AssertionError\n\nCommon\\Assert.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_singleApi.TestLoginWithPwd object at 0x000001A2AF13BB80>\n\n    def test_pass(self):\n        case_num = \"1\"\n>       self.pwdBase(self.host,case_num)\n\nTestCase\\test_singleApi.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nTestCase\\test_singleApi.py:32: in pwdBase\n    return self.ast.assert_code(result[\"code\"], expected)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001A2AF11BA00>, code = 1\nexpected_code = 11.0\n\n    def assert_code(self, code, expected_code):\n        \"\"\"\n        验证response状态码\n        :param code:\n        :param expected_code:\n        :return:\n        \"\"\"\n        try:\n>           assert code == expected_code\nE           AssertionError\n\nCommon\\Assert.py:24: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8cdf46552299c820",
+      "name" : "log",
+      "source" : "8cdf46552299c820.txt",
+      "type" : "text/plain",
+      "size" : 341
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "singleApi"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_singleApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginWithPwd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LFLIHTD"
+  }, {
+    "name" : "thread",
+    "value" : "12480-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_singleApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f34136fc4e914cb2.json",
+  "parameterValues" : [ ]
+}

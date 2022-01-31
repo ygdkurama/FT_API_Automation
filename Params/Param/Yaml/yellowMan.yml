@@ -1,0 +1,99 @@
+---
+yellowMan:
+  desc: "小黄人APP"
+  parameters:
+  - id: 1
+    desc: '登录'
+    url: '/observer/login'
+    data: {"account":"%s","password":"%s","smsCaptcha":"1","macAddress":"20:54:FA:56:3E:30","version":"%s"}
+    header: {
+      "Content-Type": "application/json"
+    }
+    res:
+      code: 0
+
+  - id: 2
+    desc: '设置门店'
+    url: '/observer/setshop'
+    data: {"shopId":"%s"}
+    header: {
+      "Content-Type": "application/json"
+    }
+    res:
+      code: 0
+
+  - id: 4
+    desc: '询价'
+    url: ['/optversion/optinspection/inquiry','/inspection/inquiry']
+    data: {"orderItemNo":"%s","pricePropertyValues":'%s',"pricePropertyValuesByManual":'%s'}
+    header: {
+      "Content-Type": "application/json"
+    }
+    res:
+      code: 0
+
+  - id: 5
+    desc: '提交质检'
+    url: ['/optversion/optinspection/submitinspection','/inspection/submitinspection']
+    data: {"appInspectionImgs":[],"imei":"%s","inquiryKey":"%s","orderItemNo":"%s","pricePropertyValues":'%s',"pricePropertyValuesByManual":'%s',"remark":"jaredyuan_autotest"}
+    header: {
+      "Content-Type": "application/json"
+    }
+    res:
+      code: 0
+
+  - id: 6
+    desc: '创建支付单'
+    url: '/order/createpaymentbill'
+    data: {"identityNo":"autotest@autotest","identityNoAutoRead":'false',"identityNoReadType":2,"identityType":4,"orderNo":"%s","productSource":"自购","statisticInfos":[{"InspectionTime":0,"OrderItemNo":"%s"}]}
+    header: {
+      "Content-Type": "application/json"
+    }
+    res:
+      code: 0
+
+  - id: 7
+    desc: '支付'
+    url: '/payment/paypaymentbill'
+    data: {"billNos":['%s']}
+    header: {
+      "Content-Type": "application/json"
+    }
+    res:
+      code: 0
+
+  - id: 8
+    desc: '变更取件单状态'
+    url: '/dispatch/changestafftrack'
+    data: {"dispatchBillId":"%s","trackStatus":"2"}
+    header: {
+      'Content-Type': 'application/json; charset=utf-8'
+    }
+    res:
+      code: 0
+
+  - id: 9
+    desc: '获取订单质检信息'
+    url: ['/optversion/optinspection/inspectioninfo','/inspection/inspectioninfo']
+    data: 'orderItemNo=%s'
+    header:
+    res:
+      code: 0
+
+  - id: 10
+    desc: '变更支付方式'
+    url: '/order/changeorderitempaymenttype'
+    data: [{"orderItemNo":"%s","paymentType":15},{"alipayAccount":"15800000000","alipayRealName":"测试","orderItemNo":"%s","paymentType":16},{"bankAccountInfo":{"account":"622600000000000","bankName":"中国银行","id":1,"name":"测试"},"orderItemNo":"%s","paymentType":6},{"orderItemNo":"%s","paymentType":1}]
+    header: {
+      'Content-Type': 'application/json'
+    }
+    res:
+      code: 0
+
+  - id: 11
+    desc: '发送验证码'
+    url: '/captcha/sendsmscaptcha'
+    data: 'mobile=18516232201&type=Login'
+    header:
+    res:
+      code: 0

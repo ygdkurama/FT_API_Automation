@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): dp.nerdlinux.com:18080
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://dp.nerdlinux.com:18080 "POST /User/Login HTTP/1.1" 200 None

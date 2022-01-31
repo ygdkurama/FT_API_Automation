@@ -1,0 +1,92 @@
+{
+  "uid" : "4bad6a4c938f77fc",
+  "name" : "test_chop",
+  "fullName" : "TestCase.test_fantuanreviews.TestFantuanReviews#test_chop",
+  "historyId" : "22a148da478eb766468a620497b9505f",
+  "time" : {
+    "start" : 1643656741519,
+    "stop" : 1643656741556,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "订单砍价",
+      "time" : {
+        "start" : 1643656741520,
+        "stop" : 1643656741556,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a5252a1ad2966bb5",
+      "name" : "log",
+      "source" : "a5252a1ad2966bb5.txt",
+      "type" : "text/plain",
+      "size" : 129
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "chopOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_fantuanreviews"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFantuanReviews"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LFLIHTD"
+  }, {
+    "name" : "thread",
+    "value" : "2172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_fantuanreviews"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4bad6a4c938f77fc.json",
+  "parameterValues" : [ ]
+}

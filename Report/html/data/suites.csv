@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 31 11:49:45 PST 2022","Mon Jan 31 11:49:45 PST 2022","157","TestCase","test_singleApi","TestLoginWithPwd","","","test_name_fail",""
+"passed","Mon Jan 31 11:49:45 PST 2022","Mon Jan 31 11:49:45 PST 2022","32","TestCase","test_fantuanreviews","TestFantuanReviews","","","test_chop",""
+"passed","Mon Jan 31 11:49:45 PST 2022","Mon Jan 31 11:49:45 PST 2022","156","TestCase","test_singleApi","TestLoginWithPwd","","","test_pwd_fail",""
+"passed","Mon Jan 31 11:49:45 PST 2022","Mon Jan 31 11:49:45 PST 2022","156","TestCase","test_singleApi","TestLoginWithPwd","","","test_pass",""
+"passed","Mon Jan 31 11:49:45 PST 2022","Mon Jan 31 11:49:45 PST 2022","184","TestCase","test_fantuanreviews","TestFantuanReviews","","","test_gettoken",""

@@ -1,0 +1,77 @@
+{
+  "uid" : "51a2d39d39849af9",
+  "name" : "test_name_fail",
+  "fullName" : "TestCase.test_singleApi.TestLoginWithPwd#test_name_fail",
+  "historyId" : "ce16d9d2cdfdbb5805dc0ffaaa6207d6",
+  "time" : {
+    "start" : 1643658204732,
+    "stop" : 1643658204857,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "56d69f1e6a9cf5cb",
+      "name" : "log",
+      "source" : "56d69f1e6a9cf5cb.txt",
+      "type" : "text/plain",
+      "size" : 233
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "singleApi"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_singleApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginWithPwd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LFLIHTD"
+  }, {
+    "name" : "thread",
+    "value" : "2576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_singleApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51a2d39d39849af9.json",
+  "parameterValues" : [ ]
+}

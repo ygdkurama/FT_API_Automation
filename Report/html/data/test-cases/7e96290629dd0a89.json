@@ -1,0 +1,92 @@
+{
+  "uid" : "7e96290629dd0a89",
+  "name" : "test_chop",
+  "fullName" : "TestCase.test_fantuanreviews.TestFantuanReviews#test_chop",
+  "historyId" : "22a148da478eb766468a620497b9505f",
+  "time" : {
+    "start" : 1643657267869,
+    "stop" : 1643657267900,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "订单砍价",
+      "time" : {
+        "start" : 1643657267869,
+        "stop" : 1643657267900,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "535c9e99809af680",
+      "name" : "log",
+      "source" : "535c9e99809af680.txt",
+      "type" : "text/plain",
+      "size" : 129
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "chopOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_fantuanreviews"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFantuanReviews"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LFLIHTD"
+  }, {
+    "name" : "thread",
+    "value" : "14408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_fantuanreviews"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e96290629dd0a89.json",
+  "parameterValues" : [ ]
+}

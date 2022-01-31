@@ -1,0 +1,1 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://dp.nerdlinux.com:18080 "POST /Order/BargainOrder HTTP/1.1" 200 None

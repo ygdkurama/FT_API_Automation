@@ -1,0 +1,142 @@
+{
+  "uid" : "cfbbb45826d7b589",
+  "name" : "test_gettoken",
+  "fullName" : "TestCase.test_fantuanreviews.TestFantuanReviews#test_gettoken",
+  "historyId" : "92a8d2d44f2fc54dbe1a1419299a7a61",
+  "time" : {
+    "start" : 1643658585151,
+    "stop" : 1643658585335,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "得到Token",
+      "time" : {
+        "start" : 1643658585151,
+        "stop" : 1643658585335,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "db6ec51ef135ae40",
+      "name" : "log",
+      "source" : "db6ec51ef135ae40.txt",
+      "type" : "text/plain",
+      "size" : 234
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "chopOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_fantuanreviews"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFantuanReviews"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LFLIHTD"
+  }, {
+    "name" : "thread",
+    "value" : "8660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_fantuanreviews"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d803f3509375a649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643658341305,
+        "stop" : 1643658341446,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "5a7954914d5496e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643658266682,
+        "stop" : 1643658266853,
+        "duration" : 171
+      }
+    }, {
+      "uid" : "11d422872db75263",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643658204382,
+        "stop" : 1643658204542,
+        "duration" : 160
+      }
+    }, {
+      "uid" : "393a5baa2c37353d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643658045004,
+        "stop" : 1643658045301,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "b4faafe8feb7a763",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643657267596,
+        "stop" : 1643657267869,
+        "duration" : 273
+      }
+    }, {
+      "uid" : "faa57a513c817d55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643656741364,
+        "stop" : 1643656741517,
+        "duration" : 153
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfbbb45826d7b589.json",
+  "parameterValues" : [ ]
+}

@@ -22,7 +22,7 @@ class TestLoginWithPwd:
     cases = get_cases(filepath, "点评测试")
     ast = Assertions()
 
-    #研就action的传递test2
+    #研就action的传递test4
 
     def postBase(self, host, case_num):
         Geturl = host + self.cases[case_num]['url']
